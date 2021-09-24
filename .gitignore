@@ -1,0 +1,140 @@
+### Bazel ###
+# gitignore template for Bazel build system
+# website: https://bazel.build/
+
+# Ignore all bazel-* symlinks. There is no full list since this can change
+# based on the name of the directory bazel is cloned into.
+/bazel-*
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.ijwb
+.ijwb/.ijwb/.idea/**/workspace.xml
+.ijwb/.idea/**/tasks.xml
+.ijwb/.idea/**/usage.statistics.xml
+.ijwb/.idea/**/dictionaries
+.ijwb/.idea/**/shelf
+
+# AWS User-specific
+.ijwb/.idea/**/aws.xml
+
+# Generated files
+.ijwb/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.ijwb/.idea/**/dataSources/
+.ijwb/.idea/**/dataSources.ids
+.ijwb/.idea/**/dataSources.local.xml
+.ijwb/.idea/**/sqlDataSources.xml
+.ijwb/.idea/**/dynamic.xml
+.ijwb/.idea/**/uiDesigner.xml
+.ijwb/.idea/**/dbnavigator.xml
+
+# Gradle
+.ijwb/.idea/**/gradle.xml
+.ijwb/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .ijwb/.idea/artifacts
+# .ijwb/.idea/compiler.xml
+# .ijwb/.idea/jarRepositories.xml
+# .ijwb/.idea/modules.xml
+# .ijwb/.idea/*.iml
+# .ijwb/.idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.ijwb/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.ijwb/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.ijwb/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.ijwb/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.ijwb/.idea/caches/build_file_checksums.ser
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .ijwb/.idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.ijwb/.idea/**/sonarlint/
+
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.ijwb/.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.ijwb/.idea/**/markdown-navigator.xml
+.ijwb/.idea/**/markdown-navigator-enh.xml
+.ijwb/.idea/**/markdown-navigator/
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.ijwb/.idea/$CACHE_FILE$
+
+# CodeStream plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.ijwb/.idea/codestream.xml
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
